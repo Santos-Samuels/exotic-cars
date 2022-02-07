@@ -6,6 +6,8 @@ export const StyledNav = styled.nav`
   padding: 15px 25px;
   background-color: ${colors.backgroud};
   box-shadow: 0 10px 30px ${colors.shadow};
+  width: 100%;
+  z-index: 10;
 `;
 
 export const Logo = styled.div`

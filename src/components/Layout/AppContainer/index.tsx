@@ -1,9 +1,13 @@
-import { Container } from './styles';
+import NavBar from "../NavBar";
+import { Container, StyledDiv } from "./styles";
 
 const AppContainer: React.FC = (props) => {
-  return <Container>
-      {props.children}
-  </Container>;
-}
+  return (
+    <StyledDiv>
+      <NavBar />
+      <Container>{props.children}</Container>
+    </StyledDiv>
+  );
+};
 
 export default AppContainer;

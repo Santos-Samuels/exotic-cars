@@ -1,6 +1,6 @@
-import { Container } from "./styles";
+import { Container, PriceContent } from "./styles";
 import { ICar } from "@shared/interfaces";
-import Ferrari from '@assets/ferrari-red.png'
+import { Link } from "react-router-dom";
 
 interface IProps {
   car: ICar;
@@ -8,11 +8,22 @@ interface IProps {
 
 const CarItem: React.FC<IProps> = (props) => {
   return (
-    <Container>
-      <h4>{props.car.beand}</h4>
-      <p>{props.car.model}</p>
-      <img src={props.car.images[0].url} alt={props.car.beand} />
-    </Container>
+    <Link to={`/car/${props.car.id}`} style={{textDecoration: 'none'}}>
+      <Container>
+        <div>
+          <h4>{props.car.beand}</h4>
+          <p>{props.car.model}</p>
+        </div>
+
+        <img src={props.car.images[0].url} alt={props.car.beand} />
+
+        <PriceContent>
+          <strong>$</strong>
+          <h3>{props.car.price_per_day}</h3>
+          <span>/day</span>
+        </PriceContent>
+      </Container>
+    </Link>
   );
 };
 
