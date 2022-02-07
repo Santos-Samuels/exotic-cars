@@ -3,5 +3,5 @@ import Home from "./Home"
 
 export {
   Home,
-  Car
+  Car,
 }

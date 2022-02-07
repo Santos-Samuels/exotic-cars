@@ -12,6 +12,7 @@
       "@pages/*": ["./src/pages/*"],
       "@routes/*": ["./src/routes/*"],
       "@shared/*": ["./src/shared/*"],
+      "@assets/*": ["./src/assets/*"],
     },
     "allowJs": true,
     "skipLibCheck": true,

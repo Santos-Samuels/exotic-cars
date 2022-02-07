@@ -1,8 +1,13 @@
-import React from 'react';
+import { AppContainer, NavBar, CarList } from '@components/index';
 
 const Home: React.FC = () => {
   return (
-    <div>Home page</div>
+    <>
+      <NavBar />
+      <AppContainer>
+        <CarList />
+      </AppContainer>
+    </>
   );
 }
 
