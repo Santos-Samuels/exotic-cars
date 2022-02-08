@@ -4,23 +4,23 @@
       "id": 1,
       "beand": "Ferrari",
       "brand_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fb/Logotipo_da_Scuderia_Ferrari.svg/1200px-Logotipo_da_Scuderia_Ferrari.svg.png",
-      "model": "CALIFORNIA",
+      "model": "California",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x.png?raw=true",
       "price_per_day": 925,
       "images": [
         {
           "id": 1,
-          "url": "",
-          "color": "Red"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-gray@2x.png?raw=true",
+          "color": "Gray"
         },
         {
           "id": 2,
-          "url": "",
-          "color": "White"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x..png?raw=true",
+          "color": "Red"
         },
         {
           "id": 3,
-          "url": "",
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-yellow@2x.png?raw=true",
           "color": "Yellow"
         }
       ]
@@ -29,24 +29,24 @@
       "id": 2,
       "beand": "Chevrolet",
       "brand_logo": "https://logosmarcas.net/wp-content/uploads/2021/04/Chevrolet-Logo.png",
-      "model": "CORVETT",
-      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porshe@2x.png?raw=true",
+      "model": "Corvett",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/chevrolet@2x.png?raw=true",
       "price_per_day": 725,
       "images": [
         {
           "id": 1,
-          "url": "",
-          "color": "White"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-gray@2x.png?raw=true",
+          "color": "Gray"
         },
         {
           "id": 2,
-          "url": "",
-          "color": "White"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x..png?raw=true",
+          "color": "Red"
         },
         {
           "id": 3,
-          "url": "",
-          "color": "Gray"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-yellow@2x.png?raw=true",
+          "color": "Yellow"
         }
       ]
     },
@@ -60,18 +60,18 @@
       "images": [
         {
           "id": 1,
-          "url": "",
-          "color": "Gold"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-gray@2x.png?raw=true",
+          "color": "Gray"
         },
         {
           "id": 2,
-          "url": "",
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x..png?raw=true",
           "color": "Red"
         },
         {
           "id": 3,
-          "url": "",
-          "color": "Blue"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-yellow@2x.png?raw=true",
+          "color": "Yellow"
         }
       ]
     },
@@ -79,24 +79,24 @@
       "id": 4,
       "beand": "Lamborghini",
       "brand_logo": "http://pngimg.com/uploads/lamborghini/lamborghini_PNG10709.png",
-      "model": "AVENTADOR",
+      "model": "Aventador",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/lamborghini-oange@2x.png?raw=true",
       "price_per_day": 316,
       "images": [
         {
           "id": 1,
-          "url": "",
-          "color": "Orange"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-gray@2x.png?raw=true",
+          "color": "Gray"
         },
         {
           "id": 2,
-          "url": "",
-          "color": "White"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x..png?raw=true",
+          "color": "Red"
         },
         {
           "id": 3,
-          "url": "",
-          "color": "Orange"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-yellow@2x.png?raw=true",
+          "color": "Yellow"
         }
       ]
     },
@@ -104,24 +104,24 @@
       "id": 5,
       "beand": "Alfa Romeo",
       "brand_logo": "https://www.pngmart.com/files/9/Alfa-Romeo-Logo-PNG-Clipart.png",
-      "model": "4C SPIDER",
+      "model": "4C Spider",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/alfa-romeo-gold@2x.png?raw=true",
       "price_per_day": 299,
       "images": [
         {
           "id": 1,
-          "url": "",
-          "color": "Yellow"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-gray@2x.png?raw=true",
+          "color": "Gray"
         },
         {
           "id": 2,
-          "url": "",
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x..png?raw=true",
           "color": "Red"
         },
         {
           "id": 3,
-          "url": "",
-          "color": "Blue"
+          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-yellow@2x.png?raw=true",
+          "color": "Yellow"
         }
       ]
     }

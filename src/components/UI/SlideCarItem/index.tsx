@@ -1,4 +1,4 @@
-import { Container, StyledImage } from "./styles";
+import { Container } from "./styles";
 
 interface IProps {
   image: string;
@@ -10,7 +10,7 @@ interface IProps {
 const SlideCarItem: React.FC<IProps> = (props) => {
   return (
     <Container isSelected={props.isSelected} onClick={() => props.slideHandler(props.imageId)}>
-      <StyledImage src={props.image} alt="" />
+      <img src={props.image} alt="" />
     </Container>
   );
 };

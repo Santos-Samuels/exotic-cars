@@ -14,6 +14,11 @@ export const Container = styled.article`
   transition: transform .3s;
   cursor: pointer;
 
+  & p {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
   & img {
     width: 200px;
   }

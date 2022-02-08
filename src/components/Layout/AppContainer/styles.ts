@@ -1,15 +1,23 @@
 import { colors } from "@shared/GlobalStyles/colors";
 import styled from "styled-components";
 
-export const StyledDiv = styled.div`
+export const StyledDiv = styled.div<{styledBackgroung: boolean}>`
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  background: ${props => props.styledBackgroung ? 'transparent linear-gradient(125deg, #FFFFFF 0%, #D8D7D7 100%) 0% 0% no-repeat padding-box' : colors.backgroud};
 `
 
-export const Container = styled.div<{styledBackgroung: boolean}>`
-  /* padding: 15px 80px; */
-  padding: 15px 15px;
+export const Container = styled.div`
+  margin: 15px 15px;
   color: ${colors.font};
-  background-color: ${colors.backgroud};
-  ${props => props.styledBackgroung ? 'background: transparent linear-gradient(125deg, #FFFFFF 0%, #D8D7D7 100%) 0% 0% no-repeat padding-box;' : ''}
+
+  @media (min-width: 900px) {
+    margin: 15px 50px;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 15px 80px;
+  }
 `

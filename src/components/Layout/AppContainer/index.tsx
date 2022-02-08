@@ -3,9 +3,9 @@ import { Container, StyledDiv } from "./styles";
 
 const AppContainer: React.FC<{styledBackgroung?: boolean}> = (props) => {
   return (
-    <StyledDiv>
+    <StyledDiv styledBackgroung={props.styledBackgroung ? props.styledBackgroung : false}>
       <NavBar />
-      <Container styledBackgroung={props.styledBackgroung ? props.styledBackgroung : false}>{props.children}</Container>
+      <Container>{props.children}</Container>
     </StyledDiv>
   );
 };
