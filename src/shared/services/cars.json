@@ -3,13 +3,14 @@
     {
       "id": 1,
       "beand": "Ferrari",
-      "brand_logo": "https://logosmarcas.net/wp-content/uploads/2020/05/Ferrari-Logo.png",
+      "brand_logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fb/Logotipo_da_Scuderia_Ferrari.svg/1200px-Logotipo_da_Scuderia_Ferrari.svg.png",
       "model": "CALIFORNIA",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x.png?raw=true",
       "price_per_day": 925,
       "images": [
         {
           "id": 1,
-          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x.png?raw=true",
+          "url": "",
           "color": "Red"
         },
         {
@@ -29,11 +30,12 @@
       "beand": "Chevrolet",
       "brand_logo": "https://logosmarcas.net/wp-content/uploads/2021/04/Chevrolet-Logo.png",
       "model": "CORVETT",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porshe@2x.png?raw=true",
       "price_per_day": 725,
       "images": [
         {
           "id": 1,
-          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porshe@2x.png?raw=true",
+          "url": "",
           "color": "White"
         },
         {
@@ -53,11 +55,12 @@
       "beand": "Porsche",
       "brand_logo": "https://www.downloadclipart.net/large/porsche-logo-transparent-png.png",
       "model": "911 GT3 RS",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porche-gold@2x.png?raw=true",
       "price_per_day": 583,
       "images": [
         {
           "id": 1,
-          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porche-gold@2x.png?raw=true",
+          "url": "",
           "color": "Gold"
         },
         {
@@ -75,13 +78,14 @@
     {
       "id": 4,
       "beand": "Lamborghini",
-      "brand_logo": "https://brandslogos.com/wp-content/uploads/images/large/lamborghini-logo.png",
+      "brand_logo": "http://pngimg.com/uploads/lamborghini/lamborghini_PNG10709.png",
       "model": "AVENTADOR",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/lamborghini-oange@2x.png?raw=true",
       "price_per_day": 316,
       "images": [
         {
           "id": 1,
-          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/lamborghini-oange@2x.png?raw=true",
+          "url": "",
           "color": "Orange"
         },
         {
@@ -101,11 +105,12 @@
       "beand": "Alfa Romeo",
       "brand_logo": "https://www.pngmart.com/files/9/Alfa-Romeo-Logo-PNG-Clipart.png",
       "model": "4C SPIDER",
+      "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/alfa-romeo-gold@2x.png?raw=true",
       "price_per_day": 299,
       "images": [
         {
           "id": 1,
-          "url": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/alfa-romeo-gold@2x.png?raw=true",
+          "url": "",
           "color": "Yellow"
         },
         {

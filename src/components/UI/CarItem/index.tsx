@@ -15,7 +15,7 @@ const CarItem: React.FC<IProps> = (props) => {
           <p>{props.car.model}</p>
         </div>
 
-        <img src={props.car.images[0].url} alt={props.car.beand} />
+        <img src={props.car.image} alt={props.car.beand} />
 
         <PriceContent>
           <strong>$</strong>

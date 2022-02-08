@@ -9,6 +9,7 @@ export interface ICar {
     beand: string;
     brand_logo: string;
     model: string;
+    image: string;
     price_per_day: number;
     images: ICarImage[];
 }

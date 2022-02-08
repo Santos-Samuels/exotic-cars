@@ -1,11 +1,11 @@
 import NavBar from "../NavBar";
 import { Container, StyledDiv } from "./styles";
 
-const AppContainer: React.FC = (props) => {
+const AppContainer: React.FC<{styledBackgroung?: boolean}> = (props) => {
   return (
     <StyledDiv>
       <NavBar />
-      <Container>{props.children}</Container>
+      <Container styledBackgroung={props.styledBackgroung ? props.styledBackgroung : false}>{props.children}</Container>
     </StyledDiv>
   );
 };

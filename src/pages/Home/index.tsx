@@ -1,13 +1,11 @@
-import { AppContainer, NavBar, CarList } from '@components/index';
+import { AppContainer, CarList } from "@components/index";
 
 const Home: React.FC = () => {
   return (
-    <>
-      <AppContainer>
-        <CarList />
-      </AppContainer>
-    </>
+    <AppContainer>
+      <CarList />
+    </AppContainer>
   );
-}
+};
 
 export default Home;
