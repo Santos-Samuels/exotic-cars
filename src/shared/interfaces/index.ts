@@ -11,6 +11,7 @@ export interface ICar {
     model: string;
     image: string;
     price_per_day: number;
+    status: string;
     images: ICarImage[];
 }
 

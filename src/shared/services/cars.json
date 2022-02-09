@@ -7,6 +7,7 @@
       "model": "California",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/ferrari-red@2x.png?raw=true",
       "price_per_day": 925,
+      "status": "in stock",
       "images": [
         {
           "id": 1,
@@ -32,6 +33,7 @@
       "model": "Corvett",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/chevrolet@2x.png?raw=true",
       "price_per_day": 725,
+      "status": "unavailable",
       "images": [
         {
           "id": 1,
@@ -57,6 +59,7 @@
       "model": "911 GT3 RS",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/porche-gold@2x.png?raw=true",
       "price_per_day": 583,
+      "status": "in stock",
       "images": [
         {
           "id": 1,
@@ -82,6 +85,7 @@
       "model": "Aventador",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/lamborghini-oange@2x.png?raw=true",
       "price_per_day": 316,
+      "status": "unavailable",
       "images": [
         {
           "id": 1,
@@ -107,6 +111,7 @@
       "model": "4C Spider",
       "image": "https://github.com/Santos-Samuels/exotic-cars/blob/master/src/assets/alfa-romeo-gold@2x.png?raw=true",
       "price_per_day": 299,
+      "status": "in stock",
       "images": [
         {
           "id": 1,

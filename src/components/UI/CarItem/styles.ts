@@ -13,6 +13,7 @@ export const Container = styled.article`
   justify-content: space-between;
   transition: transform .3s;
   cursor: pointer;
+  position: relative;
 
   & p {
     text-transform: uppercase;
@@ -28,7 +29,7 @@ export const Container = styled.article`
   }
 `
 
-export const PriceContent = styled.div`
+export const PriceContent = styled.div<{color: string}>`
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -42,5 +43,14 @@ export const PriceContent = styled.div`
   & span {
     font-size: 15px;
     align-self: flex-end;
+  }
+
+  & h5 {
+    padding: 1px 6px;
+    border-radius: 5px;
+    background-color: ${props => props.color};
+    color: #FFFFFF;
+    position: absolute;
+    top: -5px;
   }
 `

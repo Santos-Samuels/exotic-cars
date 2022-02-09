@@ -5,5 +5,5 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  width: 100vw;
+  max-width: 100vw;
 }
