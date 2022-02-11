@@ -1,29 +1,29 @@
 import { Container, PriceContent } from "./styles";
 import { ICar } from "@shared/interfaces";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { colors } from "@shared/GlobalStyles/colors";
 
 interface IProps {
   car: ICar;
 }
 
-const CarItem: React.FC<IProps> = (props) => {
+const CarItem: React.FC<IProps> = ({ car }) => {
   const navigate = useNavigate();
-  console.log(props.car)
+  console.log(car)
   return (
-    <Container onClick={() => navigate(`/car/${props.car.id}`)}>
+    <Container onClick={() => navigate(`/car/${car.id}`)}>
       <div>
-        <h4>{props.car.beand}</h4>
-        <p>{props.car.model}</p>
+        <h4>{car.beand}</h4>
+        <p>{car.model}</p>
       </div>
 
-      <img src={props.car.image} alt={props.car.beand} />
+      <img src={car.image} alt={car.beand} />
 
-      <PriceContent color={props.car.status === 'in stock' ? colors.success : colors.assent}>
+      <PriceContent color={car.status === 'in stock' ? colors.success : colors.assent}>
         <strong>$</strong>
-        <h3>{props.car.price_per_day}</h3>
+        <h3>{car.price_per_day}</h3>
         <span>/day</span>
-        <h5>{props.car.status}</h5>
+        <h5>{car.status}</h5>
       </PriceContent>
     </Container>
   );

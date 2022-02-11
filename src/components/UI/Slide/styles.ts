@@ -5,7 +5,8 @@ export const Container = styled.article`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 25px;
+  max-width: 90%;
+  margin: 25px auto 0;
 `
 
 export const StyledImage = styled.img`

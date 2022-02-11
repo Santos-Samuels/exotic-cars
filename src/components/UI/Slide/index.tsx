@@ -7,16 +7,20 @@ import { ColorContainer, Container, StyledImage, StyledMain } from "./styles";
 import { useNavigate, useParams } from "react-router-dom";
 import data from "@shared/services/cars.json";
 import { ICarImage } from "@shared/interfaces";
+import { updateCarouselItems } from "@shared/utils/updateCarouselItems";
 
 const Slide: React.FC = () => {
   const { id } = useParams();
   const car = data.cars.find((car) => car.id.toString() === id);
   const navigate = useNavigate();
-  const [selectedImage, setSelectedImage] = useState<ICarImage>(car!.images[1]);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [selectedImage, setSelectedImage] = useState<ICarImage>(car!.images[0]);
+  const [carouselItems, setCarouselItems] = useState<ICarImage[]>(updateCarouselItems(car!.images, selectedImage));
 
-  const slideHendler = (imageId: number) => {
-    setSelectedImage(car!.images.find((image) => image.id === imageId)!);
+  const slideHendler = async (imageId: number) => {
+    await setSelectedImage(car!.images.find((image) => image.id === imageId)!);
+    const updatedList = updateCarouselItems(car!.images, selectedImage)
+    setCarouselItems(updatedList)
   };
 
   useEffect(() => {
@@ -59,7 +63,7 @@ const Slide: React.FC = () => {
       </Button>
 
       <Container>
-        {car?.images.map((image) => (
+        {carouselItems.map((image) => (
           <SlideCarItem
             image={image.url}
             imageId={image.id}

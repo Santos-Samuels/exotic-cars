@@ -7,7 +7,7 @@ export const Container = styled.article`
   border-radius: 20px;
   padding: 15px 10px;
   height: 180px;
-  margin: 10px;
+  margin: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

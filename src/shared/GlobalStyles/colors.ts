@@ -5,5 +5,7 @@ export const colors = {
     font: '#313136',
     auth: '#7B89F4',
     success: '#B5C401',
-    assent: '#313136'
+    assent: '#313136',
+    icon: '#C3C3C3',
+    inputText: '#656469'
 }

@@ -9,10 +9,11 @@ export const Container = styled.article<{isSelected: boolean}>`
   margin: 20px;
   transition: transform .5s;
   cursor: pointer;
+  width: 70px;
   ${props => props.isSelected ? 'transform: scale(1.2);' : ''}
 
   & img {
-    width: 100%;
+    width: 80px;
   }
 
   &:hover {
@@ -21,5 +22,21 @@ export const Container = styled.article<{isSelected: boolean}>`
 
   @media (min-width: 1300px) {
     margin: 30px;
+  }
+
+  @media (min-width: 1100px) {
+    width: 230px !important;
+
+    & img {
+      width: 300px !important;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    width: 130px;
+
+    & img {
+      width: 170px;
+    }
   }
 `
